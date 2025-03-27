@@ -15,7 +15,7 @@ class Usuario:
 
         #llamar la conexion
         con = mysql.connection.cursor()
-        con.execute("INSERT INTO usuarios(nombre,apellido ,email,paassword)VALUES(%s, %s, %s, %s,)",
+        con.execute("INSERT INTO usuarios(nombre,apellido,email,password)VALUES(%s, %s, %s, %s)",
                     (nombre,apellido,email,conencriptada))
         mysql.connection.commit()
         con.close()
