@@ -1,2 +1,0 @@
-# GestorDeUsuarios
- Python clase
