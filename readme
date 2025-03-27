@@ -1,0 +1,3 @@
+Prenderlo : python app.py
+Instarlar : pip install mysql-connector
+            pip install mysql-connector-python
