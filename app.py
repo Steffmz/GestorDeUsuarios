@@ -1,6 +1,6 @@
 from flask import Flask
 from config import mysql,config
-from app.controllers.usuariocontroller import Usuariocontroller
+from controllers.usuariocontroller import Usuariocontroller
 
 app= Flask(__name__)
 app.config.from_object(config)
