@@ -15,7 +15,7 @@ class Usuariocontroller:
 
             #llamar el modelo para agregar el usuario
 
-            Usuario.agregarusuario(self.mysql,nombre,apellido,email,password)
+            Usuario.agregarusuario(nombre,apellido,email,password)
 
             return redirect(url_for("formulario_registro"))
     #muestra el formulario
