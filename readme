@@ -1,3 +1,5 @@
-Prenderlo : python app.py
-Instarlar : pip install mysql-connector
-            pip install mysql-connector-python
+install: pip install bcrypt
+         pip install mysql-connector
+         pip install mysql-connector-python
+
+Prender : python app.py y la ruta es /test_db
